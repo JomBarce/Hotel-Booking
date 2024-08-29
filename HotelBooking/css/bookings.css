@@ -1,0 +1,204 @@
+*{
+    color:#373F41;  
+}
+
+h3{
+    font-size: 20px;
+    display: inline;
+    vertical-align: middle;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid #9b9b9b;
+    width: 100%;
+}
+
+th{
+    background-color: #f4fdff;
+    height: 50px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+#booked{
+    min-height: 650px;
+}
+
+.section_title {
+    padding: 10px 0;
+    background-color: rgba(37, 150, 190, 0.3);
+}
+
+.section_title h2 {
+    font-size: 36px;
+    color: #373F41;
+}
+
+.section_content {
+    width: 75%;
+    margin: 20px auto;
+}
+
+#bookhead input{
+    float: right;
+    margin-right: 100px;
+    font-size: 16px;
+    background: #78C2E1;
+    border: none;
+    min-width: 80px;
+    color: #ffffff;
+    height: 35px;
+}
+
+#bookhead input:hover, #bookhead input:focus{
+    background: #cd2323 !important;
+    outline: none;
+}
+
+/* hotel */
+#hotel{
+    width: 60%;
+    padding-left: 150px;
+    height: 300px;
+    background-color: white;
+}
+
+#hotel img{
+    width: 300px;
+    height: 225px;
+}
+
+.image{
+    float: left;
+    padding-right:50px;
+}
+
+.description{
+    padding-top: 10px;
+    width: 100%;
+}
+
+.addinfo {
+    padding-left: 20px;
+    columns: 3;
+   /* list-style-type: none; */
+}
+
+.imagedisplay img{
+    padding-top: 20px;
+    padding-right: 40px;
+    width: 200px !important;
+    height: 150px !important;
+}
+
+/* rooms */
+#rooms{
+    width: 40%;
+    height: auto;
+    padding-left: 55px;
+    padding-right: 50px;
+    height: 260px;
+    background-color: white;
+}
+
+.room_image{
+    float: left;
+    padding-right:50px;
+}
+
+.room_image img{
+    width: 300px;
+    height: 225px;
+}
+
+.room_description{
+    padding-top: 20px;
+    width:100%;
+}
+
+.room_info{
+    padding-left: 20px;
+    columns: 1;
+}
+
+.roominformation{
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #hotel, #rooms {
+        padding: 20px 0;
+        height: 100%;
+        width: 90%;
+        margin: auto;
+        display: block;
+        overflow: hidden;
+    }
+    #hotel > div {
+        display: block;
+    }
+    table, th, td {
+        padding: 0;
+        border: none;
+    }
+    td{
+        text-align: center;
+    }
+    li{
+        text-align: left;
+    }
+    th {
+        text-align: center;
+        height: 100px;
+    }
+    th input{
+        transform: translateY(7px);
+    }
+    th .price{
+        padding-left: 50px;
+    }
+    #bookhead h3 {
+        padding-right: 0 !important;
+    }
+    #bookhead input {
+        float: none;
+        display: block;
+        margin: auto;
+    }
+    .image{
+        text-align: center;
+        width: 100%;
+        height: 225px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .room_image{
+        text-align: center;
+        width: 100%;
+        height: 225px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }  
+    .room_image img{
+        width: 300px;
+        height: 225px;
+    }
+    .addinformation{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    .addinfo{
+        max-width: 100%;
+    }
+    .roominformation{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+    }
+    .room_info{
+        max-width: 50%;
+        columns: 2;
+    }
+}

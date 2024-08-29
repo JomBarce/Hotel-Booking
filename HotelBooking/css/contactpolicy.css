@@ -1,0 +1,72 @@
+.section_title {
+    padding: 10px 0;
+    background-color: rgba(37, 150, 190, 0.3);
+}
+
+.section_title h2 {
+    font-size: 36px;
+    color: #373F41;
+}
+
+.section_content {
+    width: 75%;
+    margin: 20px auto;
+}
+
+.section_content p {
+    text-indent: 50px;
+    line-height: 3;
+}
+
+.section_contact {
+    width: 50%;
+    margin: 0 auto;
+    padding: 80px 0;
+    overflow: auto;
+}
+
+.section_contact h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.contact_form {
+    width: 50%;
+    float: left;
+}
+
+.contact_form:last-child {
+    width: 100%;
+}
+
+.contact_form input {
+    width: 90%;
+    height: 38px;
+    padding-left: 10px;
+}
+
+.contact_form textarea {
+    width: 90%;
+    padding-left: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section_contact {
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .section_content {
+        margin: auto;
+        width: 90%;
+    }
+
+    .section_title {
+        padding: 10px 0;
+    }
+
+    .contact_form {
+        width: 100%;
+    }
+}

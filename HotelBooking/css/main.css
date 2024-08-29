@@ -1,0 +1,37 @@
+﻿* {
+    font-family: "Arial" !important;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+li, p, button, h2, h3 {
+    font-size: 14px;
+    color: #373F41;
+}
+
+#main {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.mcontainer {
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #main {
+        padding: 25px 0;
+    }
+
+    .mcontainer {
+        padding: 10px;
+    }
+}

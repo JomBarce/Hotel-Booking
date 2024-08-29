@@ -1,0 +1,76 @@
+.feature {
+    text-align: left;
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    padding: 0px 10px;
+}
+
+.feature > img {
+    height: 32px;
+    width: 32px;
+}
+
+.feature > h3 {
+    font-size: 20px;
+}
+
+.feature > p {
+    color: #737B7D;
+    line-height: 1.6;
+}
+
+.hotels {
+    vertical-align: top;
+    display: inline-block;
+    width: 20%;
+    padding: 0 10px;
+}
+
+.hotels > img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    padding-bottom: 20px;
+}
+
+.hotels > h3 {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1080px) {
+    .feature {
+        width: 45%;
+    }
+
+    .hotels {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .feature {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .feature p {
+        padding: 0 20px;
+    }
+
+    .feature h3 {
+        margin: 0;
+    }
+    .hotels {
+        width: 100%;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .hotels img, p {
+        padding: 0;
+        margin: 0;
+    }
+}

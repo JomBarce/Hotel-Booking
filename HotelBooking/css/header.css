@@ -1,0 +1,138 @@
+#header {
+    background-color: #E9F8FF;
+    width: 100%;
+    height: 88px;
+    top: 0;
+    display: table;
+}
+
+.hcontainer {
+    width: 33%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hcontainer ul {
+    margin: 0 auto;
+}
+
+.hcontainer ul > li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.hcontainer li > a {
+    color: black;
+    text-decoration-line: none;
+    font-size: 17px;
+}
+
+.hcontainer li > a:hover {
+    color: #3C64B1;
+}
+
+.hcontainer button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hcontainer > a {
+    display: inline-block;
+}
+
+.hcontainer a > h1 {
+    color: #3C64B1;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.hcontainer a > img {
+    max-height: 25px;
+    display: inline-block;
+}
+
+#signInHeader {
+    font-size: 17px;
+    background-color: #E9F8FF;
+    color: #3C64B1;
+}
+
+#signUpHeader {
+    font-size: 17px;
+    background-color: #3C64B1;
+    color: white;
+}
+
+button:hover {
+    background-color: #2e4e8a;
+}
+
+#navIcon {
+    display: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+#navMenu {
+    display: none;
+}
+
+#navMenu a {
+    display: block;
+    color: #3C64B1;
+    background-color: #E9F8FF;
+    text-align: left;
+    text-decoration: none;
+    padding: 15px 30px;
+}
+
+#navMenu a:hover {
+    background-color: #302c34;
+    color: black;
+}
+
+@media only screen and (min-width: 600px) {
+    #navMenu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hcontainer:not(:first-child) {
+        display: none;
+    }
+
+    .hcontainer {
+        width: 80%;
+    }
+
+    #navIcon {
+        display: table-cell;
+    }
+}

@@ -1,0 +1,74 @@
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Radisson Blu Cebu','Serging Osmena Boulevard, Corner Juan Luna Avenue','Cebu City','6000','Philippines','(032) 505-1700','9.0','5000','5','radisson.jpg','rblu1.jpg','rblu2.jpg','rblu3.jpg','rblu4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('1','0','1','1','1','1','1','1','1','0','0','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('1','Deluxe Room','5000','2','1','1','King Bed','1','1','0','3','1','1','deluxe.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('1','Junior Suite','7500','2','2','1','King Bed','1','1','0','2','1','0','junior.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('1','Superior Room','8000','3','0','1','King Bed','1','1','0','1','1','1','superior.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('1','Executive Room','11000','2','1','1','King Bed','1','1','0','1','1','0','executive.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('1','Business Class Room','9000','2','0','1','King Bed','1','1','0','3','1','1','businessclass.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Shangri-La Mactan','Punta Engaño Rd','Lapu-Lapu City','6015','Philippines','(032) 231-0288','9.2',10000','5','shangri-la.jpg','shang1.jpg','shang2.jpg','shang3.jpg','shang4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('2','0','0','1','1','1','1','1','1','1','1','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('2','Main Wing Deluxe Room','10000','2','2','1','King Bed','1','1','1','6','1','0','shangR1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('2','Main Wing Deluxe Twin Room','10000','2','2','2','Single Bed','1','1','1','6','1','0','shangR2.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('2','Deluxe Sea View Double Room','12000','2','2','1','King Bed','1','1','1','1','1','0','shangR3.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('2','Deluxe Sea View Twin Room','12000','2','2','2','Single Bed','1','1','1','1','1','0','shangR4.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('2','Main Wing Deluxe Family Room','16000','2','4','2','King Bed','1','1','1','1','1','0','shangR5.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Sofitel Philippine Plaza Manila','Ccp Complex, Roxas Blvd','Pasay City','1300','Philippines','(02) 8573-5555','9.0','7000','5','sofitel.jpg','soft1.jpg','soft2.jpg','soft3.jpg','soft4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('3','1','0','1','1','1','1','1','1','0','1','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('3','Superior King Room','6500','2','0','1','King Bed','1','0','1','4','1','0','sofitelR1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('3','Superior Twin Room','6500','2','0','2','Single Bed','1','0','1','2','1','0','sofitelR2.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('3','King Suite','6500','2','0','1','King Bed','1','1','1','4','1','1','sofitelR3.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Marina Bay Sands','10 Bayfront Ave','Downtown Core','018956','Singapore','+65 6688-8868','9.0','16500','5','marinabay.jpg','marina1.jpg','marina2.jpg','marina3.jpg','marina4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('4','1','0','1','1','1','1','1','1','0','0','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('4','Deluxe King Room','15000','2','1','1','King Bed','1','1','1','2','1','1','marinaR1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('4','Deluxe Twin Room','15000','2','2','2','Single Bed','1','1','1','2','1','1','marinaR2.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('4','Premier King Room','18000','2','1','1','King Bed','1','1','1','6','1','1','marinaR3.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('4','Premier Twin Room','18000','2','2','2','Single Bed','1','1','1','6','1','1','marinaR4.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('4','Orchid Suite','32000','2','2','1','King Bed','1','1','1','6','1','1','marinaR5.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Bayview Beach Resort','Batu Ferringhi Beach, Batu Ferringhi, Pulau Pinang','George Town','11100','Malaysia','+60 4-886 1111','8.4','5000','4','bayview0.jpg','bayview1.jpg','bayview2.jpg','bayview3.jpg','bayview4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('5','1','0','0','1','1','1','0','1','1','1','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('5','Superior Double Room','3000','2','2','1','King Bed','1','0','1','3','1','0','bayviewR1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('5','Superior Twin Room','3000','2','2','2','Single Bed','1','0','1','3','1','0','bayviewR2.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('5','Grand Deluxe Room','5000','2','2','1','King Bed','1','1','1','1','1','0','bayviewR3.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('5','Executive Suite','12000','2','2','1','King Bed','1','1','1','1','1','1','bayviewR4.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('5','Family Suite','8000','4','4','4','Single Bed','1','0','1','1','1','1','bayviewR5.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Seda Central Bloc Cebu Staycation Hotel','V. Padriga Street','Cebu City','6000','Philippines','(032) 410 8899','9.3','5300','4','seda0.jpg','seda1.jpg','seda2.jpg','seda3.jpg','seda4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('6','1','0','1','1','1','1','0','1','0','0','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('6','Deluxe Double Room','5300','2','2','1','King Bed','1','0','0','2','1','0','room6-1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('6','Deluxe Twin Room','5300','2','2','2','Single Bed','1','0','0','2','1','0','room6-2.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('6','Studio Room','5800','2','2','2','Single Bed','1','1','0','2','1','0','room6-3.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Savoy Hotel Mactan Newtown','The Mactan Newtown, Newtown Blvd','Lapu-Lapu City','6015','Philippines','(032) 494 4000','8.2','3400','4','savoy0.jpg','savoy1.jpg','savoy2.jpg','savoy3.jpg','savoy4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('7','1','0','1','1','1','0','0','1','0','0','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('7','Deluxe Twin Room','3400','1','0','1','Single Bed','1','0','0','2','1','0','room7-1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('7','Deluxe Premiere Room','5000','2','2','1','King Bed','1','0','0','2','1','0','room7-2.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('7','Junior Suite Room','6200','2','2','1','King Bed','1','0','0','2','1','0','room7-3.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Bangkok Marriott Hotel The Surawongse','262 Thanon Surawong, Si Phraya, Bang Rak','Bangkok','10500','Thailand','+66 2 088 5666','9.2','5000','5','marriott0.jpg','marriott1.jpg','marriott2.jpg','marriott3.jpg','marriott4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('8','0','0','1','1','1','1','1','1','0','0','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('8','One-Bedroom Residential Suite','5000','2','2','1','King Bed','1','0','0','2','1','1','room8-1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('8','Two-Bedroom Residential Suite','6000','4','2','2','Single Bed','1','1','0','2','1','1','room8-2.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Evergreen Place Siam by UHG','318 Phayathai Rd, Thanon Phetchaburi, Ratchathewi','Bangkok','10400','Thailand','+66 2 219 1111','8.4','2000','4','evergreen0.jpg','evergreen1.jpg','evergreen2.jpg','evergreen3.jpg','evergreen4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('9','1','0','1','1','1','1','1','1','0','0','1','0','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('9','Two-Bedroom Family Suites','2000','4','4','1','King Bed & Single Bed','1','1','1','2','1','1','room9-1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('9','Standard Double Room','1000','2','2','1','King Bed','1','0','0','2','1','1','room9-2.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('9','Superior Double Room','1200','2','2','1','King Bed','1','0','1','2','0','1','room9-3.jpg')
+
+
+INSERT INTO hotels (hname,address,city,pcode,country,pnumber,review,price,class,mainphoto,photo1,photo2,photo3,photo4) VALUES ('Somerset Berlian Jakarta','Jl. Permata Berlian V, Permata Hijau','Jakarta','12210','Indonesia','+62 21 53668888','8.2','4000','4','somerset0.jpg','somerset1.jpg','somerset2.jpg','somerset3.jpg','somerset4.jpg')
+INSERT INTO filter (hotelid,cancellation,prepayment,creditcard,pool,wifi,aircon,spa,breakfast,pet,beach,restaurant,gym,wheelchair,dfacilities) VALUES ('10','1','0','1','1','1','1','0','1','0','0','1','1','1','1')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('10','Three Bedroom Deluxe','4000','4','4','1','King Bed, Queen Bed, & Single Bed','1','1','0','4','1','1','room10-1.jpg')
+INSERT INTO rooms (hotelid,name,price,accomodation,child,nbed,tbed,bathroom,kitchen,balcony,view,service,sound,rphoto) VALUES ('10','Two Bedroom Deluxe','4000','3','3','1','King Bed & Queen Bed','1','0','0','4','0','1','room10-1.jpg')

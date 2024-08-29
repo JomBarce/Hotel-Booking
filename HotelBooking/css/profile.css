@@ -1,0 +1,274 @@
+/* profile_update*/
+.contents{
+    margin: 100px 170px;
+    color: #373F41;
+}
+
+.background{
+    background-color: #D1F0FF;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+#p_picture{
+    float: left;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin-right: 50px;
+}
+
+.user{
+    padding-top: 100px;
+}
+
+.user h1{
+    font-size: 25px;
+}
+
+.user h2{
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.btn{
+    position:absolute;
+    top: 320px;
+    right: 155px;
+    font-size: 16px;
+    background: #78C2E1;
+    border: none;
+    min-width: 80px;
+    color: #ffffff;
+    height: 35px;
+}
+
+.btn:hover, .btn:focus{
+    background: #2389cd !important;
+    outline: none;
+}
+
+
+
+.left{
+    padding-left: 170px;
+    padding-right: 150px;
+}
+
+.right{
+    padding-left: 150px;
+}
+
+/* profile_edit*/
+#update-form{
+    color: #373F41;
+    margin: 0px 160px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3{
+    color: #373F41;
+    font-size: 17px;
+    padding: 20px 150px;
+    background-color: #D1F0FF;
+    margin: 0;
+}
+
+.form-group{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-bottom: 1px solid #373F41;
+}
+
+.form-group input{
+    width: 1380px;
+    height: 50px;
+    border: 0;
+    font-size: 17px;
+}
+
+.btn1{
+    font-size: 16px;
+    height: 35px;
+}
+
+.btn2{
+    position:absolute;
+    top: 180px;
+    right: 155px;
+    font-size: 16px;
+    background: #78C2E1;
+    border: none;
+    min-width: 80px;
+    color: #ffffff;
+    height: 35px;
+}
+
+.btn3{
+    position:absolute;
+    top: 340px;
+    right: 155px;
+    font-size: 16px;
+    background: #78C2E1;
+    border: none;
+    min-width: 80px;
+    color: #ffffff;
+    height: 35px;
+}
+
+.btn2:hover, .btn2:focus{
+    background: #2389cd !important;
+    outline: none;
+}
+
+.btn3:hover, .btn3:focus{
+    background: #2389cd !important;
+    outline: none;
+}
+
+table {
+    color: #373F41;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+}
+
+table tr {
+    background-color: #fcfcfc;
+    border: 1px solid #ddd;
+    padding: .35em;
+}
+
+table tr:nth-of-type(1) {
+    background-color: #ecf5fc;
+}
+
+table th,
+table td {
+    padding: .625em;
+    text-align: center;
+}
+
+table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+
+td h2 {
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contents {
+        margin: 100px 0 0 0;
+        text-align: center;
+        height: initial;
+    }
+
+    #p_picture{
+        margin: 0 auto;
+        float: none;
+    }
+
+    .user {
+        display: block;
+        padding: 0;
+    }
+
+    .user h2 {
+        margin: 0;
+    }
+    .btn, .btn2, .btn3 {
+        display: block;
+        position: initial;
+        top: initial;
+        right: initial;
+        margin: 10px auto;
+    }
+
+    table {
+        border: 0;
+    }
+
+    table caption {
+        font-size: 1.3em;
+    }
+
+    table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+
+    table tr {
+        border-bottom: 3px solid #ddd;
+        display: block;
+        margin-bottom: .625em;
+
+    }
+
+    .header{
+        background-color:none;
+    }
+
+    table td {
+        border-bottom: 1px solid #ddd;
+        display: block;
+        font-size: .8em;
+        text-align: right;
+        border: 0;
+        padding: 0;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+
+    .left, .right {
+        padding: 0;
+        text-align: center;
+    }
+
+    #update-form{
+        margin: 0;
+        width: 90%;
+    }
+
+    #update-form > form {
+        text-align: center;
+    }
+
+    .form-group input{
+        width: 100%;
+    }
+
+    h3 {
+        padding: 20px 0;
+        text-align: center;
+    }
+}

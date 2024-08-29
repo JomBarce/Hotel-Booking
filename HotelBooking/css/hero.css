@@ -1,0 +1,114 @@
+#heroImage {
+    width: 100%;
+    min-height: 622px;
+    background-color: rgba(37, 150, 190, 0.3);
+}
+
+.heroText {
+    max-width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.heroText > h2 {
+    font-size: 44px;
+    color: #373F41;
+}
+
+.heroText > p {
+    color: #737B7D;
+    font-size: 16px;
+}
+
+.heroText:first-child {
+    margin-bottom: 40px;
+}
+
+.heroText:last-child > p {
+    font-size: 12px;
+}
+
+.search {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.scontainer {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.text {
+    color: #373F41;
+    width: 282px;
+    height: 42px;
+    border: none;
+    padding-left: 10px;
+}
+
+.date {
+    color: #373F41;
+    width: 125px;
+    height: 42px;
+    border: none;
+    padding-left: 10px;
+}
+
+.scontainer label{
+    font-family: Lato;
+    font-size: 14px;
+    background-color: white;
+    padding: 13px 5px;
+    border-right: 1px solid #cccccc;
+    float: left;
+}
+
+.scontainer #adult {
+    width: 35px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 0px;
+    font-family: Lato;
+    font-size: 14px;
+    color: #373F41;
+}
+
+.scontainer #child {
+    width: 35px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 0px;
+    font-family: Lato;
+    font-size: 14px;
+    color: #373F41;
+}
+
+::placeholder {
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.search button {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #3C64B1;
+    color: white;
+}
+
+.search button:hover {
+    background-color: #2e4e8a;
+}
+
+@media only screen and (max-width: 600px) {
+    .scontainer {
+        display: block;
+        text-align: left;
+        padding: 5px 20px;
+    }
+}
